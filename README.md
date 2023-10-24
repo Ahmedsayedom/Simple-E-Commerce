@@ -31,7 +31,7 @@ The Simple-E-Commerce is a web application designed to showcase the functionalit
 - **Responsive Design:** The prototype is designed to be responsive, adapting to various screen sizes for optimal viewing on both desktop and mobile devices.
 
 ## Demo
-To see a live demo of the Simple-E-Commerce, visit [Live Demo Website]([http://example.com](https://ahmedsayedom.github.io/Simple-E-Commerce/)).
+To see a live demo of Simple-E-Commerce, visit [Live Demo Website](https://ahmedsayedom.github.io/Simple-E-Commerce/).
 
 ## Usage
 - Explore the product catalog by clicking on different categories.
