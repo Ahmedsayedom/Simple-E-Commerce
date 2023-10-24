@@ -101,7 +101,6 @@ function createProductCards(products) {
   products.forEach(product => {
     var productCard = document.createElement("div")
     productCard.classList.add("product-card")
-
     var image = document.createElement("img")
     image.src = product.thumbnail
     image.alt = product.title
@@ -450,3 +449,21 @@ window.onload = function () {
   addedItem()
   totalPrice()
 }
+
+/******************Back to top button**************** */
+var backToTopButton = document.getElementById("back-to-top")
+
+backToTopButton.addEventListener("click", function () {
+  window.scrollTo({
+    top: 0,
+    behavior: "smooth",
+  })
+})
+
+window.addEventListener("scroll", function () {
+  if (window.scrollY > 100) {
+    backToTopButton.style.display = "block"
+  } else {
+    backToTopButton.style.display = "none"
+  }
+})
