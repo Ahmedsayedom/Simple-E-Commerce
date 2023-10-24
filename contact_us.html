@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contac Us</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <script
+      src="https://kit.fontawesome.com/f485dc5b73.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header id="navbar">
+      <nav>
+        <ul>
+          <li>
+            <span id="site-name">iShop</span>
+          </li>
+          <li>
+            <a href="./home.html" target="_self" rel="noopener noreferrer"
+              >Home</a
+            >
+          </li>
+          <li>
+            <a href="./about.html" target="_self" rel="noopener noreferrer"
+              >About</a
+            >
+          </li>
+          <li>
+            <a href="./contact_us.html" target="_self" rel="noopener noreferrer"
+              >Contact Us</a
+            >
+          </li>
+        </ul>
+        <div class="cart">
+          <a href="./cart.html" target="_self" rel="noopener noreferrer"
+            ><img src="./images/bag.png" alt="bag" class="icon-cart"
+          /></a>
+          <span class="item-counter">0</span>
+        </div>
+      </nav>
+    </header>
+
+    <div>
+      <table>
+        <tr>
+          <td>Name</td>
+          <td>
+            <input type="text" name="name" id="name" class="text" />
+            <p id="error1">Name is not valid.</p>
+          </td>
+        </tr>
+        <tr>
+          <td>Email</td>
+          <td>
+            <input type="email" name="email" id="email" class="text" value="" />
+            <p id="error2">Email is not valid.</p>
+          </td>
+        </tr>
+        <tr>
+          <td>Password</td>
+          <td>
+            <input
+              type="password"
+              name="password"
+              id="password"
+              class="text"
+              value=""
+            />
+            <p id="error3">
+              Password must be 8 characters or numbers at least.
+            </p>
+          </td>
+        </tr>
+        <tr>
+          <td>Message</td>
+          <td>
+            <textarea
+              name="Message"
+              id="Message"
+              class="text"
+              style="height: 180px; border: 2px solid red"
+            ></textarea>
+            <p id="error4">Please Write any thing, under 150 characters.</p>
+          </td>
+        </tr>
+      </table>
+      <div id="btns">
+        <div>
+          <button id="submit" onclick="submitInfo()">Contact Us</button>
+          <button id="reset" onclick="resetinfo()">Reset</button>
+        </div>
+      </div>
+    </div>
+
+    <footer style="position: relative; bottom: -50px">
+      <div class="social-icons">
+        <a href="https://www.facebook.com" target="_blank"
+          ><i class="fab fa-facebook-f" style="color: #ffffff"></i
+        ></a>
+        <a href="https://www.twitter.com" target="_blank"
+          ><i class="fa-brands fa-x-twitter" style="color: #ffffff"></i
+        ></a>
+        <a href="https://www.instagram.com" target="_blank"
+          ><i class="fab fa-instagram" style="color: #ffffff"></i
+        ></a>
+      </div>
+      <a href="#navbar" id="scrollToTop">Back to Top</a>
+    </footer>
+    <script src="./Js/script.js"></script>
+  </body>
+</html>
