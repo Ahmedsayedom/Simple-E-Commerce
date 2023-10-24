@@ -1,4 +1,4 @@
-# E-commerce Website Prototype
+# Simple-E-Commerce
 
 ![Website Screenshot](https://github.com/Ahmedsayedom/Simple-E-Commerce/assets/120990598/02631841-ab77-42e8-8583-caa4f282b6dd)
 
@@ -11,7 +11,7 @@
 - [License](#license)
 
 ## Introduction
-The E-commerce Website Prototype is a web application designed to showcase the functionality of an online shopping platform. This project provides users with an interactive interface to browse and purchase products. It is meant to serve as a starting point or prototype for the development of a fully-fledged e-commerce website.
+The Simple-E-Commerce is a web application designed to showcase the functionality of an online shopping platform. This project provides users with an interactive interface to browse and purchase products. It is meant to serve as a starting point or prototype for the development of a fully-fledged e-commerce website.
 
 ## Features
 - **Product Catalog:** Browse and explore a diverse range of products organized into various categories.
@@ -31,7 +31,7 @@ The E-commerce Website Prototype is a web application designed to showcase the f
 - **Responsive Design:** The prototype is designed to be responsive, adapting to various screen sizes for optimal viewing on both desktop and mobile devices.
 
 ## Demo
-To see a live demo of the E-commerce Website Prototype, visit [Live Demo Website]([http://example.com](https://ahmedsayedom.github.io/Simple-E-Commerce/)).
+To see a live demo of the Simple-E-Commerce, visit [Live Demo Website]([http://example.com](https://ahmedsayedom.github.io/Simple-E-Commerce/)).
 
 ## Usage
 - Explore the product catalog by clicking on different categories.
