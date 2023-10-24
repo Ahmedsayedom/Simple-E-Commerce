@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MyShop</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <script
+      src="https://kit.fontawesome.com/f485dc5b73.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header id="navbar">
+      <nav>
+        <ul>
+          <li>
+            <span id="site-name">iShop</span>
+          </li>
+          <li>
+            <a href="./home.html" target="_self" rel="noopener noreferrer"
+              >Home</a
+            >
+          </li>
+          <li>
+            <a href="./about.html" target="_self" rel="noopener noreferrer"
+              >About</a
+            >
+          </li>
+          <li>
+            <a href="./contact_us.html" target="_self" rel="noopener noreferrer"
+              >Contact Us</a
+            >
+          </li>
+        </ul>
+        <div class="cart">
+          <a href="./cart.html" target="_self" rel="noopener noreferrer"
+            ><img src="./images/bag.png" alt="bag" class="icon-cart"
+          /></a>
+          <span class="item-counter" id="itemCounter">0</span>
+        </div>
+      </nav>
+    </header>
+    <div id="content">
+      <div id="slider">
+        <button
+          onclick="SliderBack()"
+          style="
+            border-bottom-right-radius: 0px;
+            border-top-right-radius: 0px;
+            border-bottom-left-radius: 50px;
+            border-top-left-radius: 50px;
+          "
+        >
+          <
+        </button>
+        <img src="./images/1.jpg" alt="" id="sliderimg" />
+        <button onclick="SliderNext()">></button>
+      </div>
+      <div style="display: flex; justify-content: center">
+        <p style="font-size: 25px; padding: 30px; width: 100%">
+          <span style="font-style: italic; font-weight: bold"
+            >"Discover Endless Possibilities in Every Click"</span
+          >
+          This phrase could capture the idea that your e-commerce website offers
+          a diverse range of products and encourages visitors to explore and
+          shop by clicking through your site. It conveys a sense of excitement
+          and curiosity, inviting users to engage with your offerings and find
+          something unique or valuable with every interaction. Indulge in a
+          seamless shopping experience as you navigate through our user-friendly
+          interface. From fashion to electronics, home essentials to gifts, we
+          have something for everyone. Embrace the joy of discovery as you
+          browse through an extensive range of categories, meticulously designed
+          to ensure you find exactly what you're looking for. <br />Our
+          commitment to quality and customer satisfaction sets us apart. Explore
+          brands that resonate with excellence and value. Whether you're
+          revamping your wardrobe, upgrading your tech, or simply treating
+          yourself, MyShop is here to transform your desires into reality.
+        </p>
+      </div>
+
+      <div id="productsSec">
+        <div id="categories">
+          <button onclick="allProduct()">All</button>
+          <button onclick="filterProducts('smartphones')">Smartphones</button>
+          <button onclick="filterProducts('laptops')">Laptops</button>
+          <button onclick="filterProducts('groceries')">Groceries</button>
+          <button onclick="filterProducts('home-decoration')">
+            Home Decoration
+          </button>
+        </div>
+        <div id="products">
+          <div class="product-card">
+            <img src="./images/1.jpg" alt="" />
+            <div class="product-info">
+              <div class="title-container">
+                <span class="product-title">Product Title</span>
+              </div>
+              <span class="product-price">$24.99</span>
+              <button class="add-to-cart-button">Add to Cart</button>
+            </div>
+          </div>
+          <div class="product-card">
+            <img src="./images/1.jpg" alt="" />
+            <div class="product-info">
+              <span class="product-price">$24.99</span>
+              <button class="add-to-cart-button">Add to Cart</button>
+            </div>
+          </div>
+          <div class="product-card">
+            <img src="./images/1.jpg" alt="" />
+            <div class="product-info">
+              <span class="product-price">$24.99</span>
+              <button class="add-to-cart-button">Add to Cart</button>
+            </div>
+          </div>
+          <div class="product-card">
+            <img src="./images/1.jpg" alt="" />
+            <div class="product-info">
+              <span class="product-price">$24.99</span>
+              <button class="add-to-cart-button">Add to Cart</button>
+            </div>
+          </div>
+          <div class="product-card">
+            <img src="./images/1.jpg" alt="" />
+            <div class="product-info">
+              <span class="product-price">$24.99</span>
+              <button class="add-to-cart-button">Add to Cart</button>
+            </div>
+          </div>
+          <div class="product-card">
+            <img src="./images/1.jpg" alt="" />
+            <div class="product-info">
+              <span class="product-price">$24.99</span>
+              <button class="add-to-cart-button">Add to Cart</button>
+            </div>
+          </div>
+          <div class="product-card">
+            <img src="./images/1.jpg" alt="" />
+            <div class="product-info">
+              <span class="product-price">$24.99</span>
+              <button class="add-to-cart-button">Add to Cart</button>
+            </div>
+          </div>
+          <div class="product-card">
+            <img src="./images/1.jpg" alt="" />
+            <div class="product-info">
+              <span class="product-price">$24.99</span>
+              <button class="add-to-cart-button">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="social-icons">
+        <a href="https://www.facebook.com" target="_blank"
+          ><i class="fab fa-facebook-f" style="color: #ffffff"></i
+        ></a>
+        <a href="https://www.twitter.com" target="_blank"
+          ><i class="fa-brands fa-x-twitter" style="color: #ffffff"></i
+        ></a>
+        <a href="https://www.instagram.com" target="_blank"
+          ><i class="fab fa-instagram" style="color: #ffffff"></i
+        ></a>
+      </div>
+      <div>2023 Ahmed Sayed</div>
+
+      <a href="#navbar" id="scrollToTop">Back to Top</a>
+    </footer>
+
+    <script src="./Js/script.js"></script>
+  </body>
+</html>
